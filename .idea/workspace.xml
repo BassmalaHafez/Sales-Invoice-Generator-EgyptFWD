@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="68bb4525-babb-4386-8245-6e798c2ab0da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SalesInvoiceGenerator-EgyptFWD.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/InvoiceHeader.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/InvoiceLine.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controler/ActionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controler/MouseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/FileOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/InvoiceHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/InvoiceLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/InvoiceFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/NewInvoiceDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/NewItemDialog.java" afterDir="false" />
-    </list>
+    <list default="true" id="68bb4525-babb-4386-8245-6e798c2ab0da" name="Changes" comment="second commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +15,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="BassmalaHafez &lt;bassmalla.hafez.102@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,13 +34,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="InvoiceFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="view.InvoiceFrame" />
@@ -81,6 +70,21 @@
       <option name="presentableId" value="Default" />
       <updated>1658568883517</updated>
     </task>
+    <task id="LOCAL-00001" summary="second commit">
+      <created>1658676088580</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658676088580</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1658676131212</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658676131212</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,5 +100,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
 </project>
