@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68bb4525-babb-4386-8245-6e798c2ab0da" name="Changes" comment="second commit">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controler/ActionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controler/ActionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controler/MouseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controler/MouseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/InvoiceFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/InvoiceFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
