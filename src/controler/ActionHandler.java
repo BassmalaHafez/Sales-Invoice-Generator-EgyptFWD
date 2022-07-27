@@ -39,10 +39,10 @@ public class ActionHandler implements ActionListener {
             case "Delete Invoice":
                 deleteInvoice();
                 break;
-            case "Save":
+            case "Add item":
                 saveItem();
                 break;
-            case "Cancel":
+            case "Cancel item":
                 cancelItem();
                 break;
         }

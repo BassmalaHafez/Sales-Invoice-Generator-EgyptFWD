@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68bb4525-babb-4386-8245-6e798c2ab0da" name="Changes" comment="second commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/InvoiceHeader.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/InvoiceHeader.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/InvoiceLine.csv" beforeDir="false" afterPath="$PROJECT_DIR$/resources/InvoiceLine.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controler/ActionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controler/ActionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/view/InvoiceFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/InvoiceFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,5 +104,16 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="second commit" />
     <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/view/InvoiceFrame.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
