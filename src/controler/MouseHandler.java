@@ -10,9 +10,7 @@ import java.awt.event.MouseEvent;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
-/**
- * @author mouha
- */
+
 public class MouseHandler extends MouseAdapter {
 
     @Override
@@ -40,6 +38,7 @@ public class MouseHandler extends MouseAdapter {
                             new String[]{"No.", "Item Name", "Item Price", "Count", "Item Total"}));
                 } else {
                     InvoiceFrame.invoiceTotalLbl.setText(String.valueOf(total));
+
                     InvoiceFrame.itemsTable.setModel(new javax.swing.table.DefaultTableModel(
                             new Object[][]{
 
@@ -48,6 +47,10 @@ public class MouseHandler extends MouseAdapter {
                                     "No.", "Item Name", "Item Price", "Count", "Item Total"
                             }
                     ));
+
+                    InvoiceFrame.itemsTable.setModel(new DefaultTableModel(new Object[][]{},
+                            new String[]{"No.", "Item Name", "Item Price", "Count", "Item Total"}));
+
                 }
 
             }

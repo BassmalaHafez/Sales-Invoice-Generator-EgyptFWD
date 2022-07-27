@@ -163,8 +163,14 @@ public class ActionHandler implements ActionListener {
     }
 
     private void deleteInvoice() {
-        if (InvoiceFrame.invoicesTable.getSelectedRow() >= 0) {
+        if (InvoiceFrame.invoicesTable.getSelectedRow() >= 0)
+        {
             InvoiceFrame.invoices.remove(InvoiceFrame.invoicesTable.getSelectedRow());
+            //coder : for loop invoices (arralist) .size ->  new num
+            for(int i = 0 ; i < InvoiceFrame.invoices.size();i++)
+            {
+                InvoiceFrame.invoices.get(i).setInvoiceNum(i+1);
+            }
             Object[][] invoiceTableData = getInvoiceTableData(InvoiceFrame.invoices);
             InvoiceFrame.invoicesTable.setModel(new DefaultTableModel(invoiceTableData,
                     new String[]{"No.", "Date", "Customer", "Total"}));
